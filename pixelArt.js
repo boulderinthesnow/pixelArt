@@ -9,41 +9,25 @@
 
 var color = "red"
 
-	for (i = 0 ; i < 2000 ; i++) {
+	// square creation
+	for (i = 0 ; i < 2024 ; i++) {
 		var box = document.createElement('box')
 		box.addEventListener('click', function() {
 			this.style.backgroundColor = color
 		})
 
-
-
-
-		//box.style.height = "2%"
 		box.style.width = "2%"
 		box.style.float = "left"
 		box.style.paddingBottom = "2%"
 		box.style.backgroundColor = "white"
-		box.style.border = "1px dotted red"
+		box.style.border = "1px dotted indianRed"
 
 		box.addEventListener('dragenter', function() {
 			this.style.backgroundColor = color
 		})		
 		document.body.appendChild(box)
 	}
-		// // BLUE
-		// var blue = document.createElement('blue')
 
-		// blue.addEventListener('click', function() {
-		// 	color = "blue"
-		// })
-
-		// blue.style.width = "2%"
-		// blue.style.float = "left"
-		// blue.style.paddingBottom = "2%"
-		// blue.style.backgroundColor = "white"
-		// blue.style.border = "2px dotted blue"
-		// blue.style.backgroundColor = "blue"
-		// document.body.appendChild(blue)
 
 		/// RED
 		var red = document.createElement('red')
@@ -52,11 +36,12 @@ var color = "red"
 			color = "red"
 		})
 		
-		red.style.width = "2%"
+		red.style.width = "16.14%"
 		red.style.float = "left"
+		red.style.boarder="2px bold black"
 		red.style.paddingBottom = "2%"
 		red.style.backgroundColor = "white"
-		red.style.border = "2px dotted red"
+		red.style.border = "2px solid black";
 		red.style.backgroundColor = "red"
 		document.body.appendChild(red)		
 
@@ -67,11 +52,11 @@ var color = "red"
 			color = "orange"
 		})
 		
-		orange.style.width = "2%"
+		orange.style.width = "16.14%"
 		orange.style.float = "left"
 		orange.style.paddingBottom = "2%"
 		orange.style.backgroundColor = "white"
-		orange.style.border = "2px dotted orange"
+		orange.style.border = "2px solid black"
 		orange.style.backgroundColor = "orange"
 		document.body.appendChild(orange)		
 
@@ -82,11 +67,11 @@ var color = "red"
 			color = "yellow"
 		})
 		
-		yellow.style.width = "2%"
+		yellow.style.width = "16.14%"
 		yellow.style.float = "left"
 		yellow.style.paddingBottom = "2%"
 		yellow.style.backgroundColor = "white"
-		yellow.style.border = "2px dotted yellow"
+		yellow.style.border = "2px solid black"
 		yellow.style.backgroundColor = "yellow"
 		document.body.appendChild(yellow)		
 
@@ -97,11 +82,11 @@ var color = "red"
 			color = "green"
 		})
 		
-		green.style.width = "2%"
+		green.style.width = "16.14%"
 		green.style.float = "left"
 		green.style.paddingBottom = "2%"
 		green.style.backgroundColor = "white"
-		green.style.border = "2px dotted green"
+		green.style.border = "2px solid black"
 		green.style.backgroundColor = "green"
 		document.body.appendChild(green)		
 
@@ -112,11 +97,11 @@ var color = "red"
 			color = "blue"
 		})
 		
-		blue.style.width = "2%"
+		blue.style.width = "16.14%"
 		blue.style.float = "left"
 		blue.style.paddingBottom = "2%"
 		blue.style.backgroundColor = "white"
-		blue.style.border = "2px dotted blue"
+		blue.style.border = "2px solid black"
 		blue.style.backgroundColor = "blue"
 		document.body.appendChild(blue)		
 
@@ -127,11 +112,11 @@ var color = "red"
 			color = "purple"
 		})
 		
-		purple.style.width = "2%"
+		purple.style.width = "16.14%"
 		purple.style.float = "left"
 		purple.style.paddingBottom = "2%"
 		purple.style.backgroundColor = "white"
-		purple.style.border = "2px dotted purple"
+		purple.style.border = "2px solid black"
 		purple.style.backgroundColor = "purple"
 		document.body.appendChild(purple)	
 
@@ -140,3 +125,4 @@ var color = "red"
 
 
 //box
+

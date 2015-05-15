@@ -16,12 +16,18 @@ var color = "red"
 		})
 
 
+
+
 		//box.style.height = "2%"
 		box.style.width = "2%"
 		box.style.float = "left"
 		box.style.paddingBottom = "2%"
 		box.style.backgroundColor = "white"
 		box.style.border = "1px dotted red"
+
+		box.addEventListener('dragenter', function() {
+			this.style.backgroundColor = color
+		})		
 		document.body.appendChild(box)
 	}
 		// // BLUE
